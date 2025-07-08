@@ -1,6 +1,19 @@
-<gs:GlobalizationServices xmlns:gs="urn:longhornGlobalizationUnattend"> 
-<!--User List-->
-<gs:UserList>
-    <gs:User UserID="Current" CopySettingsToDefaultUserAcct="true" CopySettingsToSystemAcct="true"/> 
-</gs:UserList>
+<gs:GlobalizationServices xmlns:gs="urn:longhornGlobalizationUnattend">
+  <gs:UserList>
+    <gs:User UserID="Current" CopySettingsToDefaultUserAcct="true" CopySettingsToSystemAcct="true"/>
+  </gs:UserList>
+
+  <gs:InputPreferences>
+    <gs:InputLanguageID Action="add" ID="040c:0000040c" Default="true"/> <!-- Français (France) clavier FR -->
+  </gs:InputPreferences>
+
+  <gs:UserLocale>
+    <gs:Locale Name="fr-FR" SetAsCurrent="true"/>
+  </gs:UserLocale>
+
+  <gs:SystemLocale Name="fr-FR"/>
+  <gs:UILanguage Name="fr-FR"/>
+  <gs:LocationPreferences>
+    <gs:GeoID Value="84"/>
+  </gs:LocationPreferences>
 </gs:GlobalizationServices>
