@@ -6,9 +6,9 @@
 #variables
 $regionalsettingsURL = "https://raw.githubusercontent.com/gtissier-eng/FRLang/refs/heads/main/FRRegion.xml"
 $RegionalSettings = "C:\Region.xml"
-$Language = "fr-CH"
-$GeoId = "223"
-$TimeZone = "W. Europe Standard Time"
+$Language = "fr-FR"
+$GeoId = "84"
+$TimeZone = "Romance Standard Time"
 Set-WinHomeLocation -GeoId $GeoId
 Set-TimeZone -id $TimeZone
 
